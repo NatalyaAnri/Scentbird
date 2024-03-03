@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: public_exercises_table
+    schema: public_exercises
+    database: postgres
+
+    tables:
+      - name: events
+
+      - name: orders
+
+      - name: users
